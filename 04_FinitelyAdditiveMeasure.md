@@ -47,6 +47,7 @@ $\mathcal{F}$を有限加法族という．
 3. $B \in \mathcal{F}$より $B^c \in \mathcal{F}$．  
    よって，2より $A \backslash B = A \cap B^c \in \mathcal{F}$．
 4. 次が成り立つので，有限加法族の定義3. を繰り返すことにより成立する．
+
 	```math
     \bigcup_{n=1}^N A_n
     = (\cdots((A_1 \cup A_2) \cup A_3) \cup \cdots \cup A_N)
