@@ -14,7 +14,7 @@
 
 <details>
 
-<summary><u>Def（有限加法族）</u></summary>
+<summary><ins>定義（有限加法族）</ins></summary>
 
 $X$を集合とする．
 $X$の集合族$\mathcal{F}\subset 2^X$が次を満たす時，$\mathcal{F}$を有限加法族という．    
@@ -25,18 +25,18 @@ $X$の集合族$\mathcal{F}\subset 2^X$が次を満たす時，$\mathcal{F}$を�
 </details>
 
 
-<u>Cor</u>
+<ins>系</ins>
 1. $X \in \mathcal{F}$
 2. $A, B \in \mathcal{F} \Rightarrow A \cap B \in \mathcal{F}$
 3. $A, B \in \mathcal{F} \Rightarrow A \backslash B \in \mathcal{F}$
-4. $A_1, \dots, A_N \in \mathcal{F} \Rightarrow \bigcup_{n=1}^N A_n \in \mathcal{F}$
-5. $A_1, \dots, A_N \in \mathcal{F} \Rightarrow \bigcap_{n=1}^N A_n \in \mathcal{F}$
+4. $\displaystyle A_1, \dots, A_N \in \mathcal{F} \Rightarrow \bigcup_{n=1}^N A_n \in \mathcal{F}$
+5. $\displaystyle A_1, \dots, A_N \in \mathcal{F} \Rightarrow \bigcap_{n=1}^N A_n \in \mathcal{F}$
 
 
 
 
 <details>
-<summary><u>Proof</u></summary>
+<summary><ins>Proof</ins></summary>
 
 1. 有限加法族の定義より$\emptyset \in \mathcal{F}$．  
    したがって，$X = \emptyset^c \in \mathcal{F}$．
@@ -59,7 +59,7 @@ $X$の集合族$\mathcal{F}\subset 2^X$が次を満たす時，$\mathcal{F}$を�
 
 
 <details>
-<summary><u>Thm（直積空間の有限加法族）</u>
+<summary><ins>Thm（直積空間の有限加法族）</ins>
 
 
 $Z = X \times Y$ とし，$\mathcal{E}, \mathcal{F}$ をそれぞれ$X$と$Y$の有限加法族とする．
@@ -71,7 +71,7 @@ $$ \mathcal{G} = \left\{
 とすると，$\mathcal{G}$は$Z$の有限加法族．
 </summary>
 
-<u>Proof</u>
+<ins>Proof</ins>
 
 1. 有限加法族の定義から$\emptyset \in \mathcal{E}, \emptyset \in \mathcal{F}$より，
    $\emptyset=\emptyset\times\emptyset\in\mathcal{G}$．
