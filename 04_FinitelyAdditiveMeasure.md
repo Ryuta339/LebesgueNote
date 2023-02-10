@@ -36,9 +36,9 @@ $X$の集合族$\mathcal{F}\subset 2^X$が次を満たす時，$\mathcal{F}$を�
 
 
 <details>
-<summary><ins>Proof</ins></summary>
+<summary><ins>証明</ins></summary>
 
-1. 有限加法族の定義より$\emptyset \in \mathcal{F}$．  
+1. 有限加法族の定義より$\emptyset \in \mathcal{F}$  
    したがって，$X = \emptyset^c \in \mathcal{F}$．
 2. $A, B \in \mathcal{F}$より$A^c, B^c \in \mathcal{F}$．  
    よって，$A^c \cup B^c \in \mathcal{F}$．  
@@ -59,7 +59,7 @@ $X$の集合族$\mathcal{F}\subset 2^X$が次を満たす時，$\mathcal{F}$を�
 
 
 <details>
-<summary><ins>Thm（直積空間の有限加法族）</ins>
+<summary><ins>定理（直積空間の有限加法族）</ins>
 
 
 $Z = X \times Y$ とし，$\mathcal{E}, \mathcal{F}$ をそれぞれ$X$と$Y$の有限加法族とする．
@@ -71,7 +71,7 @@ $$ \mathcal{G} = \left\{
 とすると，$\mathcal{G}$は$Z$の有限加法族．
 </summary>
 
-<ins>Proof</ins>
+<ins>証明</ins>
 
 1. 有限加法族の定義から$\emptyset \in \mathcal{E}, \emptyset \in \mathcal{F}$より，
    $\emptyset=\emptyset\times\emptyset\in\mathcal{G}$．
