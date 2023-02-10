@@ -12,7 +12,7 @@
     4. ${}^\forall A \subset \mathbb{R}^D$ に対して$|A|$が値を持つ（これは成り立たない）
 
 
-<datails>
+<details>
 
 <summary><u>Def（有限加法族）</u></summary>
 
@@ -23,3 +23,5 @@ $X$の集合族$\mathfrak{F}\subset 2^X$が次を満たす時，$\mathcal{F}$を
 3. $A, B \in \mathfrak{F} \Rightarrow A \cup B \in\mathfrak{F}$
 
 </details>
+
+
