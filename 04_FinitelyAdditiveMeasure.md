@@ -9,7 +9,7 @@
         $$\left| \bigsqcup_{n=1}^N A_n \right| = \sum_{n=1}^N |A_n|$$
     3. $x \in \mathbb{R}^D$ に対して
         $$|A + x| = |A|$$
-    4. ${}^\forall A \subset \mathbb{R}^D$ に対して$|A|$が値を持つ（これは成り立たない）
+    4. ${}^\forall A \subset \mathbb{R}^D$ に対して $|A|$が値を持つ（これは成り立たない）
 
 
 <details>
@@ -17,7 +17,8 @@
 <summary><ins>定義（有限加法族）</ins></summary>
 
 $X$を集合とする．
-$X$の集合族$\mathcal{F}\subset 2^X$が次を満たす時，$\mathcal{F}$を有限加法族という．    
+$X$の集合族 $\mathcal{F}\subset 2^X$が次を満たす時，
+$\mathcal{F}$を有限加法族という．    
 1. $\emptyset \in \mathcal{F}$
 2. $A\in\mathcal{F} \Rightarrow A^c\in\mathcal{F}$
 3. $A, B \in \mathcal{F} \Rightarrow A \cup B \in\mathcal{F}$
@@ -38,21 +39,21 @@ $X$の集合族$\mathcal{F}\subset 2^X$が次を満たす時，$\mathcal{F}$を�
 <details>
 <summary><ins>証明</ins></summary>
 
-1. 有限加法族の定義より$\emptyset \in \mathcal{F}$  
-   したがって，$X = \emptyset^c \in \mathcal{F}$．
-2. $A, B \in \mathcal{F}$より$A^c, B^c \in \mathcal{F}$．  
-   よって，$A^c \cup B^c \in \mathcal{F}$．  
-   したがってde Morganの定理より，$A \cap B = (A^c \cup B^c)^c \in \mathcal{F}$．
-3. $B \in \mathcal{F}$より$B^c \in \mathcal{F}$．  
-   よって，2より$A \backslash B = A \cap B^c \in \mathcal{F}$．
+1. 有限加法族の定義より $\emptyset \in \mathcal{F}$  
+   したがって， $X = \emptyset^c \in \mathcal{F}$．
+2. $A, B \in \mathcal{F}$より $A^c, B^c \in \mathcal{F}$．  
+   よって， $A^c \cup B^c \in \mathcal{F}$．  
+   したがってde Morganの定理より， $A \cap B = (A^c \cup B^c)^c \in \mathcal{F}$．
+3. $B \in \mathcal{F}$より $B^c \in \mathcal{F}$．  
+   よって，2より $A \backslash B = A \cap B^c \in \mathcal{F}$．
 4. 次が成り立つので，有限加法族の定義3. を繰り返すことにより成立する．
    $$
     \bigcup_{n=1}^N A_n
     = (\cdots((A_1 \cup A_2) \cup A_3) \cup \cdots \cup A_N)
     $$
-5. $A_n \in \mathcal{F}$より$A_n^c\in\mathcal{F}$．  
-   したがって，4より$\bigcup_{n=1}^N A_N^c \in \mathcal{F}$．  
-   ゆえに，有限加法族の定義より$\bigcap_{n=1}^N A_n = \left( \bigcup_{n=1}^N A_n^c \right)^c \in \mathcal{F}$．
+5. $A_n \in \mathcal{F}$より $A_n^c\in\mathcal{F}$．  
+   したがって，4より $\bigcup_{n=1}^N A_N^c \in \mathcal{F}$．  
+   ゆえに，有限加法族の定義より $\bigcap_{n=1}^N A_n = \left( \bigcup_{n=1}^N A_n^c \right)^c \in \mathcal{F}$．
 </details>
 
 
